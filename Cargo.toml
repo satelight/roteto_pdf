@@ -1,0 +1,8 @@
+[workspace]
+members = [ "lib_pdf","rotated_pdf/src-tauri"]
+resolver = "2"
+
+[workspace.dependencies]
+serde = {version="1.0.199",features=["derive"]}
+serde_json = {version="1.0.116"}
+tokio = {version="1.37.0",features=["full"]}
